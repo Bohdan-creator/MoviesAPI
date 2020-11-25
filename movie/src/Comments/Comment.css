@@ -1,0 +1,28 @@
+.AddComment{
+        position: absolute;
+        z-index: 3;
+        text-align: center;
+        background-color: rgb(29, 116, 192);
+        height: 300px;
+        padding: 2%;
+        width:350px;
+        margin-top: 70px;
+        margin-left: 35%;
+        border-radius: 35px;
+        animation-name: bottom;
+        animation-duration: 2s ;
+    }
+    @keyframes bottom {
+        from {top: -500px;}
+        to {top: 0px;}
+      }
+      .form{
+        position: relative !important;
+        margin-left:0px!important;
+        width:300px;
+        padding: 15px;
+        border-radius: 7px;
+        font-size: 25px;
+        border: 0px;
+        width: 40%;
+      }
